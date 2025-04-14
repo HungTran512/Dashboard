@@ -14,7 +14,7 @@ This dashboard provides a comprehensive interface for process flow visualization
 
 2. Create a virtual environment:
    ```
-   python3 -m venv env
+   python -m venv env
    ```
 3. Activate the environment:
    ```
