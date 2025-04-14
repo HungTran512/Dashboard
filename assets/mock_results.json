@@ -1,0 +1,2509 @@
+{
+  "data": {
+    "main_summary_text": "Based on the simulations performed, following variables have the highest impact:  temperature on Equipment HEX-100, temperature on Equipment Fuel, temperature on Equipment Air.",
+    "top_summary_text": "Focus on the following varibles to achieve top 5'%' of KPI.",
+    "top_impact": {
+      "HEX-100.cold_fluid_temperature": 24.244,
+      "Fuel.temperature": 27.853,
+      "Air.temperature": 47.903,
+      "Others": 0.0
+    },
+    "top_variables": [
+      {
+        "equipment": "HEX-100",
+        "type": "Setpoint",
+        "name": "cold_fluid_temperature",
+        "value": 329.974,
+        "unit": "K"
+      },
+      {
+        "equipment": "Fuel",
+        "type": "Setpoint",
+        "name": "temperature",
+        "value": 364.524,
+        "unit": "K"
+      },
+      {
+        "equipment": "Air",
+        "type": "Setpoint",
+        "name": "temperature",
+        "value": 305.88,
+        "unit": "K"
+      }
+    ],
+    "impact_summary_text": "Based on the simulation, following weightages are assigned based on how each variable impacts the KPI. Prioritize analyzing the variables with higher weightages. ",
+    "setpoint_impact_summary": [
+      {
+        "equipment": "HEX-100",
+        "setpoint": "cold_fluid_temperature",
+        "weightage": 24.244,
+        "unit": "K"
+      },
+      {
+        "equipment": "Fuel",
+        "setpoint": "temperature",
+        "weightage": 27.853,
+        "unit": "K"
+      },
+      {
+        "equipment": "Air",
+        "setpoint": "temperature",
+        "weightage": 47.903,
+        "unit": "K"
+      }
+    ],
+    "condition_impact_summary": [],
+    "simulated_summary": {
+      "simulated_data": [
+        {
+          "scenario": "Scenario 0",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 13.308,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 329.974,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 364.524,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 305.88,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 500.895
+        },
+        {
+          "scenario": "Scenario 1",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 12.702,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 325.139,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 314.104,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 316.58,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 461.337
+        },
+        {
+          "scenario": "Scenario 2",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 14.34,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 344.451,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 302.123,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 304.454,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 441.178
+        },
+        {
+          "scenario": "Scenario 3",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 11.867,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 338.532,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 312.849,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 352.296,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 433.884
+        },
+        {
+          "scenario": "Scenario 4",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 10.157,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 292.145,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 396.08,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 313.274,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 416.687
+        },
+        {
+          "scenario": "Scenario 5",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 12.247,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 325.603,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 343.843,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 366.831,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 409.46
+        },
+        {
+          "scenario": "Scenario 6",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 11.867,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 302.249,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 312.849,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 346.663,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 404.906
+        },
+        {
+          "scenario": "Scenario 7",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 10.8,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 349.123,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 350.252,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 334.962,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 400.159
+        },
+        {
+          "scenario": "Scenario 8",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 12.702,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 339.972,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 381.44,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 346.665,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 396.721
+        },
+        {
+          "scenario": "Scenario 9",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 12.145,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 301.703,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 378.294,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 370.338,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 393.664
+        },
+        {
+          "scenario": "Scenario 10",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 11.867,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 302.249,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 355.98,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 352.296,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 393.439
+        },
+        {
+          "scenario": "Scenario 11",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 10.157,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 290.643,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 366.767,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 333.746,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 393.344
+        },
+        {
+          "scenario": "Scenario 12",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 13.308,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 329.974,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 338.762,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 305.88,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 391.407
+        },
+        {
+          "scenario": "Scenario 13",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 11.626,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 310.685,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 300.672,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 304.454,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 390.167
+        },
+        {
+          "scenario": "Scenario 14",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 14.083,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 338.532,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 355.98,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 346.663,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 386.747
+        },
+        {
+          "scenario": "Scenario 15",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 10.086,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 325.139,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 381.44,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 346.665,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 386.575
+        },
+        {
+          "scenario": "Scenario 16",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 12.613,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 292.145,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 396.08,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 333.746,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 385.806
+        },
+        {
+          "scenario": "Scenario 17",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 14.34,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 344.451,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 300.672,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 382.589,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 382.743
+        },
+        {
+          "scenario": "Scenario 18",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 13.53,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 349.123,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 392.89,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 358.214,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 381.366
+        },
+        {
+          "scenario": "Scenario 19",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 12.613,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 292.145,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 366.767,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 313.274,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 381.072
+        },
+        {
+          "scenario": "Scenario 20",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 13.308,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 329.974,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 364.524,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 391.047,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 380.182
+        },
+        {
+          "scenario": "Scenario 21",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 14.74,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 307.807,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 378.294,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 399.065,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 379.844
+        },
+        {
+          "scenario": "Scenario 22",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 14.083,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 302.249,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 312.849,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 352.296,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 378.158
+        },
+        {
+          "scenario": "Scenario 23",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 14.74,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 307.807,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 333.482,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 399.065,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 376.881
+        },
+        {
+          "scenario": "Scenario 24",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 14.74,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 301.703,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 333.482,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 399.065,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 372.943
+        },
+        {
+          "scenario": "Scenario 25",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 13.308,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 315.094,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 364.524,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 305.88,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 369.926
+        },
+        {
+          "scenario": "Scenario 26",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 12.145,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 307.807,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 333.482,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 399.065,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 367.867
+        },
+        {
+          "scenario": "Scenario 27",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 13.53,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 317.799,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 350.252,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 334.962,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 367.725
+        },
+        {
+          "scenario": "Scenario 28",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 12.247,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 329.08,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 343.843,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 366.831,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 367.658
+        },
+        {
+          "scenario": "Scenario 29",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 12.247,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 325.603,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 327.576,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 366.831,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 367.428
+        },
+        {
+          "scenario": "Scenario 30",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 11.867,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 302.249,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 312.849,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 352.296,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 366.072
+        },
+        {
+          "scenario": "Scenario 31",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 10.086,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 339.972,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 381.44,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 346.665,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 365.866
+        },
+        {
+          "scenario": "Scenario 32",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 14.34,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 310.685,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 302.123,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 382.589,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 365.37
+        },
+        {
+          "scenario": "Scenario 33",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 12.613,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 292.145,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 396.08,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 313.274,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 363.753
+        },
+        {
+          "scenario": "Scenario 34",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 14.678,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 325.603,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 343.843,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 366.831,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 362.211
+        },
+        {
+          "scenario": "Scenario 35",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 11.626,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 344.451,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 302.123,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 382.589,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 361.46
+        },
+        {
+          "scenario": "Scenario 36",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 14.678,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 329.08,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 327.576,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 378.128,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 360.506
+        },
+        {
+          "scenario": "Scenario 37",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 12.247,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 325.603,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 343.843,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 378.128,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 359.701
+        },
+        {
+          "scenario": "Scenario 38",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 14.74,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 307.807,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 333.482,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 370.338,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 359.422
+        },
+        {
+          "scenario": "Scenario 39",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 10.8,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 317.799,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 350.252,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 334.962,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 359.35
+        },
+        {
+          "scenario": "Scenario 40",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 10.086,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 339.972,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 314.104,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 346.665,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 357.681
+        },
+        {
+          "scenario": "Scenario 41",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 10.8,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 317.799,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 350.252,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 358.214,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 356.858
+        },
+        {
+          "scenario": "Scenario 42",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 11.066,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 315.094,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 338.762,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 391.047,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 356.771
+        },
+        {
+          "scenario": "Scenario 43",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 12.613,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 290.643,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 396.08,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 313.274,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 356.137
+        },
+        {
+          "scenario": "Scenario 44",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 11.066,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 329.974,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 364.524,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 305.88,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 354.286
+        },
+        {
+          "scenario": "Scenario 45",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 10.8,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 317.799,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 392.89,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 334.962,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 351.295
+        },
+        {
+          "scenario": "Scenario 46",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 10.086,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 339.972,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 381.44,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 316.58,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 350.774
+        },
+        {
+          "scenario": "Scenario 47",
+          "equipment_specification": [
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "global_heat_transfer_coefficient",
+                  "type": "Condition",
+                  "value": 14.34,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "HEX-100",
+              "variables": [
+                {
+                  "name": "cold_fluid_temperature",
+                  "type": "Setpoint",
+                  "value": 344.451,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Fuel",
+              "variables": [
+                {
+                  "name": "Fuel - temperature",
+                  "type": "Setpoint",
+                  "value": 302.123,
+                  "unit": "K"
+                }
+              ]
+            },
+            {
+              "equipment": "Air",
+              "variables": [
+                {
+                  "name": "temperature",
+                  "type": "Setpoint",
+                  "value": 382.589,
+                  "unit": "K"
+                }
+              ]
+            }
+          ],
+          "kpi": "Heater Outlet Temperature",
+          "kpi_value": 328.601
+        }
+      ]
+    }
+  }
+}
